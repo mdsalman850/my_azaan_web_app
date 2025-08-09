@@ -2,7 +2,7 @@ import http from 'http';
 import { parse } from 'url';
 
 export default function handler(req, res) {
-  const backendUrl = 'http://172.184.138.18:8000/validate-first-takbir/';
+  const backendUrl = 'https://api.myazaan.app/validate-first-takbir/';
   const { hostname, port, pathname } = parse(backendUrl);
 
   // Remove host header
