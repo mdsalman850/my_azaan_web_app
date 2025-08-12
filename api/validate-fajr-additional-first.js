@@ -2,7 +2,7 @@ import http from 'http';
 import { parse } from 'url';
 
 export default function handler(req, res) {
-  const backendUrl = 'https://api.myazaan.app/validate-fajr-additional-first/';
+  const backendUrl = 'https://api.myazaan.app/validate-fajr-additional-first';
   const { hostname, port, pathname } = parse(backendUrl);
 
   // Remove host header
